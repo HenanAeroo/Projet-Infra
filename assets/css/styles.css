@@ -1,0 +1,316 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.connection-page {
+    background-image: url('../img/blizzard.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topnav {
+    background-color: #191715;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.topnav a {
+    float: left;
+    color: #fcf7f7;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Sunflower', sans-serif;
+    font-size: 17px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.add-game-link {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #38ab02;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.add-game-link:hover {
+    background-color: #4de905;
+}
+
+.editButton {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #38ab02;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.editButton:hover {
+    background-color: #4de905;
+}
+
+.showButton {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #38ab02;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.showButton:hover {
+    background-color: #4de905;
+}
+
+.deleteButton {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #db0404;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.deleteButton:hover {
+    background-color: #ff0000;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 75px;
+}
+
+.btn {
+    padding: 8px 16px;
+    background-color: #38ab02;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.btn-register {
+    background-color: #38ab02;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #38ab02;
+    border-radius: 10px;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input:focus, .form-group select:focus {
+    border-color: #38ab02;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-group button {
+    padding: 8px 16px;
+    background-color: #38ab02;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.form-group button:hover {
+    background-color: #4de905;
+}
+
+.connection {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.connection-form {
+    display: grid;
+    padding: 10px;
+}
+
+.connection-form h1 {
+    text-align: center;
+}
+
+.connection-form .form-control {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.connection-form .btn {
+    width: 50%; 
+    margin-top: 20px;
+    padding: 8px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+}
+
+.connection-form .btn:hover {
+    background-color: #218838;
+}
+
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.card .info {
+    margin-top: auto;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
