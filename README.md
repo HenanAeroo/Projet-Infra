@@ -60,10 +60,10 @@ Ouvrez ensuite VisualStudioCode, ou votre IDE habituel, puis utilisez la command
  - Créez un fichier `db_config.php` dans le répertoire du projet avec le contenu suivant :
     ```php
     <?php
-        $serveur = "localhost";
-        $utilisateur = "Votre nom d'utilisateur";
-        $mot_de_passe = "Son mdp";
-        $base_de_donnees = "Le nom de votre base de données";
+        $servername = "localhost";
+        $username = "Votre nom d'utilisateur";
+        $password = "Son mdp";
+        $database = "Le nom de votre base de données";
     ?>
     ```
  - Remplacez `"Votre nom d'utilisateur"`, `"Son mdp"`, et `"Le nom de votre base de données"` par les informations appropriées.
