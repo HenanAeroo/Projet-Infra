@@ -77,8 +77,14 @@ Une fois terminé, pensez à vous déconnecter.
 
 ## VI - Visuels de l'application web
 
+Voici la page que vous aurez lors de votre arrivée sur le site :  
+
 ![Login screen](./assets/img/login_screen.png)
 
+Voici la page d'accueil du site :  
+
 ![Homepage](./assets/img/homepage.png)
+
+Et un exemple des options disponibles sur la page d'accueil :  
 
 ![Game Buttons](./assets/img/login_screen.png)
