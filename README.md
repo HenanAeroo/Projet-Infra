@@ -68,7 +68,7 @@ Ouvrez ensuite VisualStudioCode, ou votre IDE habituel, puis utilisez la command
     ```
  - Remplacez `"Votre nom d'utilisateur"`, `"Son mdp"`, et `"Le nom de votre base de données"` par les informations appropriées.
 
-## V - Utilisation
+## V. Utilisation
 
 Afin d'accéder à ce projet, ouvrez votre navigateur habituel et écrivez ``localhost/Projet_Infrastructure_Henan_NOEL``.
 Pensez ensuite à vous créer un compte, connectez-vous et utilisez librement l'application qui vous est offerte.
@@ -76,7 +76,7 @@ Pensez ensuite à vous créer un compte, connectez-vous et utilisez librement l'
 Vous pouvez ajouter des jeux, modifier leurs informations, les supprimez... Vous êtes désormais libre !
 Une fois terminé, pensez à vous déconnecter.
 
-## VI - Visuels de l'application web
+## VI. Visuels de l'application web
 
 Voici la page que vous aurez lors de votre arrivée sur le site :  
 
