@@ -42,7 +42,7 @@ Une fois installé, démarrez les modules **Apache** et **MySQL**.
 ### 2 - Cloner le répertoire
 
 Placez-vous dans le dossier **"htdocs"** de votre dossier XAMPP.
-Ouvrez ensuite VisualStudioCode, ou votre IDE habituel, puis utilisez la commande ``git clone github.com/HenanAeroo/Projet_Infrastrucut``.
+Ouvrez ensuite VisualStudioCode, ou votre IDE habituel, puis utilisez la commande ``git clone github.com/HenanAeroo/Projet_Infrastructure_Henan_NOEL``.
 
 ### 3 - Configuration de la base de données
 
