@@ -33,3 +33,16 @@ réaliser un CRUD (Create, Read, Update, Delete) permettant d'agir sur les jeux 
 
 ## IV. Comment installer le projet
 
+### 1 - Prérequis
+
+Assurez-vous que XAMPP soit bien installé sur votre machine.
+
+### 2 - Configuration de la base de données
+
+ - Accédez à PHPMyAdmin via l'interface de XAMPP : bouton _ADMIN_ sur la ligne _MySQL_.
+ - Créez un nouvel utilisateur et lui assigner les privilèges nécessaires.
+ - Créez une nouvelle base de données.
+ - Cliquez sur l'onglet **Importer** dans le menu principal en haut.
+ - Cliquez sur **Choisir un fichier** et sélectionnez le fichier .sql que vous avez transféré.
+ - Vérifiez les options d'importation. Les options par défaut devraient convenir.
+ - Cliquez sur **Exécuter** pour lancer l'importation. PHPMyAdmin va lire le fichier .sql et recréer la structure et les données dans la nouvelle base de données.
