@@ -36,13 +36,33 @@ réaliser un CRUD (Create, Read, Update, Delete) permettant d'agir sur les jeux 
 ### 1 - Prérequis
 
 Assurez-vous que XAMPP soit bien installé sur votre machine.
+Une fois installé, démarrez les modules **Apache** et **MySQL**.
 
-### 2 - Configuration de la base de données
+### 2 - Cloner le répertoire
+
+Placez vous dans le dossier **"htdocs"** de votre dossier XAMPP.
+Ouvrez ensuite VisualStudioCode, ou votre IDE habituel, puis utilisez la commande ``git clone github.com/Utilisateur/NomDuRepo``.
+
+### 3 - Configuration de la base de données
 
  - Accédez à PHPMyAdmin via l'interface de XAMPP : bouton _ADMIN_ sur la ligne _MySQL_.
  - Créez un nouvel utilisateur et lui assigner les privilèges nécessaires.
  - Créez une nouvelle base de données.
- - Cliquez sur l'onglet **Importer** dans le menu principal en haut.
- - Cliquez sur **Choisir un fichier** et sélectionnez le fichier .sql que vous avez transféré.
+ - Sélectionnez votre nouvelle base de données.
+ - Cliquez sur l'onglet **"Importer"** dans le menu principal en haut.
+ - Cliquez sur **"Choisir un fichier"** et sélectionnez le fichier .sql que vous avez transféré.
  - Vérifiez les options d'importation. Les options par défaut devraient convenir.
- - Cliquez sur **Exécuter** pour lancer l'importation. PHPMyAdmin va lire le fichier .sql et recréer la structure et les données dans la nouvelle base de données.
+ - Cliquez sur **"Exécuter"** pour lancer l'importation. PHPMyAdmin va lire le fichier .sql et recréer la structure et les données dans la nouvelle base de données.
+
+### 4 - Configuration des credentials
+
+ - Créez un fichier `credentials.php` dans le répertoire de votre projet avec le contenu suivant :
+    ```php
+    <?php
+        $serveur = "localhost";
+        $utilisateur = "Votre nom d'utilisateur";
+        $mot_de_passe = "Son mdp";
+        $base_de_donnees = "Le nom de votre base de données";
+    ?>
+    ```
+ - Remplacez `"Votre nom d'utilisateur"`, `"Son mdp"`, et `"Le nom de votre base de données"` par les informations appropriées.
