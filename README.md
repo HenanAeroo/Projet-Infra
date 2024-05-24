@@ -5,7 +5,7 @@ Projet réalisé par Hénan NOËL.
 ## Sommaire
 I. [Rappel du Projet](#i-rappel-du-projet)
 II. [Cadre de développement](#ii-cadre-de-développement)
-III. [Présentation](#iii-présentation)
+III. [Stack Technique](#iii-stack-technique)
 
 
 ## I. Rappel du Projet
@@ -18,6 +18,17 @@ réaliser un CRUD (Create, Read, Update, Delete) permettant d'agir sur les jeux 
 
 ## II. Cadre de développement
 
+- **Établissement** : Rennes Ynov Campus
+- **Niveau d'études** : Première année en Bachelor Informatique
+- **Contraintes** :
+    *7 cours de 4h chacun : 28h
+    *Travail en binôme (_non accompli par absence de mon binôme_)
+    *Serveur sur un pc, et base de données sur l'autre
 
+## III. Stack Technique
 
-## III. Présentation
+- **Langage** : PHP
+- **Base de données** : MariaDB via PHPMyAdmin
+
+## IV. Comment installer le projet
+
