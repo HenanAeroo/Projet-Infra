@@ -7,7 +7,7 @@ I. [Rappel du Projet](#i-rappel-du-projet)
 II. [Cadre de développement](#ii-cadre-de-développement)  
 III. [Stack Technique](#iii-stack-technique)  
 IV. [Comment installer le projet](#iv-comment-installer-le-projet)  
-V. [Utilisation](#v-utilisation)
+V. [Utilisation](#v-utilisation)  
 IV. [Visuels de l'application web](#vi-visuels-de-lapplication-web)
 
 ## I. Rappel du Projet
