@@ -3,9 +3,10 @@
 Projet réalisé par Hénan NOËL.
 
 ## Sommaire
-I. [Rappel du Projet](#i-rappel-du-projet)
-II. [Cadre de développement](#ii-cadre-de-développement)
-III. [Stack Technique](#iii-stack-technique)
+I. [Rappel du Projet](#i-rappel-du-projet)  
+II. [Cadre de développement](#ii-cadre-de-développement)  
+III. [Stack Technique](#iii-stack-technique)  
+IV. [Comment installer le projet](#iv-comment-installer-le-projet)  
 
 
 ## I. Rappel du Projet
