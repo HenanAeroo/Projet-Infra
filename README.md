@@ -40,7 +40,7 @@ Une fois installé, démarrez les modules **Apache** et **MySQL**.
 
 ### 2 - Cloner le répertoire
 
-Placez vous dans le dossier **"htdocs"** de votre dossier XAMPP.
+Placez-vous dans le dossier **"htdocs"** de votre dossier XAMPP.
 Ouvrez ensuite VisualStudioCode, ou votre IDE habituel, puis utilisez la commande ``git clone github.com/Utilisateur/NomDuRepo``.
 
 ### 3 - Configuration de la base de données
@@ -56,7 +56,7 @@ Ouvrez ensuite VisualStudioCode, ou votre IDE habituel, puis utilisez la command
 
 ### 4 - Configuration des credentials
 
- - Créez un fichier `credentials.php` dans le répertoire de votre projet avec le contenu suivant :
+ - Créez un fichier `db_config.php` dans le répertoire du projet avec le contenu suivant :
     ```php
     <?php
         $serveur = "localhost";
@@ -66,3 +66,19 @@ Ouvrez ensuite VisualStudioCode, ou votre IDE habituel, puis utilisez la command
     ?>
     ```
  - Remplacez `"Votre nom d'utilisateur"`, `"Son mdp"`, et `"Le nom de votre base de données"` par les informations appropriées.
+
+## V - Utilisation
+
+Afin d'accéder à ce projet, ouvrez votre navigateur habituel et écrivez ``localhost/Projet_Infrastructure_Henan_NOEL``.
+Pensez ensuite à vous créer un compte, connectez-vous et utilisez librement l'application qui vous est offerte.
+
+Vous pouvez ajouter des jeux, modifier leurs informations, les supprimez... Vous êtes désormais libre !
+Une fois terminé, pensez à vous déconnecter.
+
+## VI - Visuels de l'application web
+
+![Login screen](./assets/img/login_screen.png)
+
+![Homepage](./assets/img/homepage.png)
+
+![Game Buttons](./assets/img/login_screen.png)
