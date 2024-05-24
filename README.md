@@ -87,4 +87,4 @@ Voici la page d'accueil du site :
 
 Et un exemple des options disponibles sur la page d'accueil :  
 
-![Game Buttons](./assets/img/login_screen.png)
+![Game Buttons](./assets/img/game_example.png)
